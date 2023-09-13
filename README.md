@@ -32,7 +32,7 @@ This is my personal portfolio website, designed to introduce myself, showcase my
 
 ## Usage
 
-You can view the live website by visiting [this link]((https://Nabee-l.github.io/Portfolio/). Feel free to explore the code and use it as a template for your own portfolio. If you'd like to contribute or make improvements, follow the guidelines in the [Contributing](#contributing) section.
+You can view the live website by visiting [this link](https://Nabee-l.github.io/Portfolio/). Feel free to explore the code and use it as a template for your own portfolio. If you'd like to contribute or make improvements, follow the guidelines in the [Contributing](#contributing) section.
 
 ## Contributing
 

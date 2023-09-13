@@ -1,0 +1,128 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #6c757d   !important;
+    font-weight: 500;
+}
+
+/* Header Section */
+header {
+    background-color: #fff;
+}
+
+/* About Section */
+#about {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+#about h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#about .lead {
+    font-size: 20px;
+    font-weight: 500;
+    color: #6c757d;
+}
+
+#about p {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+
+#skills {
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* Media Query for screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 768px) {
+    #skills {
+        width: 25%;
+        height: 25%;
+        padding: 50px 0; /* Adjust padding for smaller screens */
+    }
+}
+
+
+/* Education Section */
+#education {
+    padding: 100px 0;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* Footer Section */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    #about h1 {
+        font-size: 28px;
+    }
+
+    #about .lead {
+        font-size: 18px;
+    }
+
+    #about p {
+        font-size: 14px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    #contact {
+        padding: 50px 0;
+    }
+}
+
